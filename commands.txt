@@ -1,0 +1,16 @@
+pip install pipenv
+pipenv shell
+pipenv install Django==3.0.8
+django-admin
+django-admin startproject ecommerce
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+pipenv install djangorestframework
+django-admin startapp api
+django-admin startapp category
+django-admin startapp order
+django-admin startapp payment
+django-admin startapp product
+django-admin startapp user
